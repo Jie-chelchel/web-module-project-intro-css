@@ -1,77 +1,198 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+    *{
+        box-sizing: border-box;
+        width: 100%;
+        color;black;
+    }
+
 
 html {
-    font-size: 16px;
-    width: 100%;
-    text-align: center;
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size:4.5rem;
+}
+}
+a {
+    color:white;
 }
 header img {
-    width: 30%;
-    height: 30%;
-
+    width: 230px;
     border-radius: 50%;
-    margin-top: 4rem;
-    padding-top: 2rem;  
+    margin-right: o;
 }
-section>div {
-    width: 800px;
-    height:250px;
-    padding: 6rem;
-    line-height: 2rem;
-    text-align: center;
-    letter-spacing: 0.2rem;
- 
-}
-header h1{
-    font-size: 2.3rem;
-}
-header section {
-    display: flex;
-    padding:3rem;
-    padding-bottom: 0.1rem;
+header p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
 
+section div{
+    display: inline-block;
+    width: 44%;
+     
+}
+header img{
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.right{
+text-align: center;
+position:absolute;
+top: 10%;
+
+}
+.right p {
+    padding:1rem;
+    font-size: 1.5rem;
+}
 
 footer a, header a {
-    width: 6.5rem;
+    width: 12%;
+    font-size: 1.1rem;
     background-color:#5ED3EB ;
     text-decoration: none;
-    border: 0px;
-    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
-   display: inline-block;
-    border-radius: 0.6rem;
+    margin: 1.5rem 5rem 1.5rem 5rem;
+    color:white;
+    padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+    display: inline-block;
+    border-radius: 1rem;
     letter-spacing: 2px;
+    text-align: center;   
+}
+.orange {
+    background-color: #FF764E;
+    margin-left: 15rem ;
+}
+.orange:hover {
+    background-color: pink;
+    color:purple;
+}
+.blue {
+    background-color:#5ED3EB;
+    margin-left: 15rem ;
+   
+}
+.blue:hover {
+    background-color: lightseagreen;
+    color:darkblue;
+}
+.yellow {
+    background-color:#FFCD69;
+    margin-left: 15rem ;
+}
+.yellow:hover {
+    background-color: cyan;
+    color:mediumvioletred;
+}
 
-    
-}
-footer .link, header .link{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 article {
+    width:90%;
     background-color:#DDB9A3 ;
-    padding: 2rem;
-    margin: 0.2rem;
-
+    margin-left: 3em;
+    text-align: center;
+    color:white;
+    padding:1.5rem 2rem 1.5rem 2rem;
+    font-size: 1.5rem;
+}
+article p{
+    padding:0.8rem;
 }
 
    
 
-main section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.safty img{
-    width:10%;
-    height: 10%;
+
+.top img{
+    width:45%;
+    height: 45%;
+    margin-top: 2rem;
+    position:center;
+}
+.bottom img{
+    width: 45%;
+    height: 45%;
     margin-top: 2rem;
 }
-.safty p {
-    width:20%;
-    height: 20%;
-    font-size: 0.8rem;
- 
+.top, .bottom {
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 2rem;
+    
+}
 
+span {
+    font-weight:bold;
+}
+
+.footerimage {
+   
+   background-image: url('assets/footer_img.jpg');
+   width: 100%;
+   height:30vh;
+   background-repeat:no-repeat ;
+   background-size: cover;
+   background-position: top;
+
+}
+
+footer nav {
+    background-color: #F9E7DC;
 }
