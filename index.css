@@ -1,0 +1,77 @@
+
+html {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+header img {
+    width: 30%;
+    height: 30%;
+
+    border-radius: 50%;
+    margin-top: 4rem;
+    padding-top: 2rem;  
+}
+section>div {
+    width: 800px;
+    height:250px;
+    padding: 6rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+ 
+}
+header h1{
+    font-size: 2.3rem;
+}
+header section {
+    display: flex;
+    padding:3rem;
+    padding-bottom: 0.1rem;
+}
+
+
+footer a, header a {
+    width: 6.5rem;
+    background-color:#5ED3EB ;
+    text-decoration: none;
+    border: 0px;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+   display: inline-block;
+    border-radius: 0.6rem;
+    letter-spacing: 2px;
+
+    
+}
+footer .link, header .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+article {
+    background-color:#DDB9A3 ;
+    padding: 2rem;
+    margin: 0.2rem;
+
+}
+
+   
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.safty img{
+    width:10%;
+    height: 10%;
+    margin-top: 2rem;
+}
+.safty p {
+    width:20%;
+    height: 20%;
+    font-size: 0.8rem;
+ 
+
+}
